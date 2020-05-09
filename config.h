@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Dina:pixelsize=14:antialias=true";
-static int borderpx = 24;
+static int borderpx = 0;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -55,7 +55,7 @@ static unsigned int blinktimeout = 800;
 /*
  * thickness of underline and bar cursors
  */
-static unsigned int cursorthickness = 2;
+static unsigned int cursorthickness = 1;
 
 /*
  * 1: render most of the lines/blocks characters without using the font for
