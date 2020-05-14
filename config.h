@@ -56,6 +56,7 @@ static unsigned int blinktimeout = 800;
  * thickness of underline and bar cursors
  */
 static unsigned int cursorthickness = 1;
+static unsigned int underlinethickness = 3;
 
 /*
  * 1: render most of the lines/blocks characters without using the font for
