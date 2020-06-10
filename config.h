@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Dina:pixelsize=14:antialias=true";
+static char *font = "JetBrains Mono:pixelsize=14:antialias=true";
 static int borderpx = 0;
 
 /*
@@ -94,7 +94,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* Terminal colors (16 first used in escape sequence) */
 #include "colors.h"
