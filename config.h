@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "JetBrains Mono:pixelsize=14:antialias=true";
+static char *font = "Liberation Mono:pixelsize=14:antialias=true";
 static int borderpx = 0;
 
 /*
@@ -33,7 +33,7 @@ static float chscale = 1.0;
  *
  * More advanced example: L" `'\"()[]{}"
  */
-wchar_t *worddelimiters = L" ";
+wchar_t *worddelimiters = L" -+.='\"()[]{}$;/*,";
 
 /* selection timeouts (in milliseconds) */
 static unsigned int doubleclicktimeout = 300;
@@ -43,8 +43,8 @@ static unsigned int tripleclicktimeout = 600;
 int allowaltscreen = 1;
 
 /* frames per second st should at maximum draw to the screen */
-static unsigned int xfps = 60;
-static unsigned int actionfps = 30;
+static unsigned int xfps = 1000;
+static unsigned int actionfps = 1000;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
@@ -74,7 +74,7 @@ const int boxdraw_braille = 0;
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
  * it
  */
-static int bellvolume = 10;
+static int bellvolume = 100;
 
 /* default TERM value */
 char *termname = "st-256color";
