@@ -1,33 +1,33 @@
 /*
-* base16-grayscale-dark-theme.h
+* base16-gruvbox-dark-medium-theme.h
 *
 * Base16: (https://github.com/chriskempson/base16)
 *
 * Authors:
 *
-* Scheme: Alexandre Gavioli (https://github.com/Alexx2/)
+* Scheme: Dawid Kurek (dawikur@gmail.com), morhetz (https://github.com/morhetz/gruvbox)
 * Template: Honza Pokorny <me@honza.ca>
 *
 */
 
 
 static const char *colorname[] = {
-  "#101010", /* bas000 */
-  "#7c7c7c", /* base08 */
-  "#8e8e8e", /* base0B */
-  "#a0a0a0", /* base0A */
-  "#686868", /* base0D */
-  "#747474", /* base0E */
-  "#868686", /* base0C */
-  "#b9b9b9", /* base05 */
-  "#525252", /* base03 */
-  "#999999", /* base09 */
-  "#252525", /* base01 */
-  "#464646", /* base02 */
-  "#ababab", /* base04 */
-  "#e3e3e3", /* base06 */
-  "#5e5e5e", /* base0F */
-  "#f7f7f7", /* base07 */
+  "#282828", /* base00 */
+  "#fb4934", /* base08 */
+  "#b8bb26", /* base0B */
+  "#fabd2f", /* base0A */
+  "#83a598", /* base0D */
+  "#d3869b", /* base0E */
+  "#8ec07c", /* base0C */
+  "#d5c4a1", /* base05 */
+  "#665c54", /* base03 */
+  "#fe8019", /* base09 */
+  "#3c3836", /* base01 */
+  "#504945", /* base02 */
+  "#bdae93", /* base04 */
+  "#ebdbb2", /* base06 */
+  "#d65d0e", /* base0F */
+  "#fbf1c7", /* base07 */
 };
 
 unsigned int defaultfg = 7;
