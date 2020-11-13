@@ -1,5 +1,5 @@
 /*
-* base16-gruvbox-dark-medium-theme.h
+* base16-gruvbox-dark-hard-theme.h
 *
 * Base16: (https://github.com/chriskempson/base16)
 *
@@ -12,7 +12,7 @@
 
 
 static const char *colorname[] = {
-  "#282828", /* base00 */
+  "#1d2021", /* base00 */
   "#fb4934", /* base08 */
   "#b8bb26", /* base0B */
   "#fabd2f", /* base0A */
