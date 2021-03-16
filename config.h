@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Terminus:pixelsize=12:antialias=false";
+static char *font = "xos4 Terminus:pixelsize=12:antialias=false:hinting=false";
 static int borderpx = 0;
 
 /*
@@ -25,7 +25,7 @@ char *stty_args = "stty raw pass8 nl -echo -iexten -cstopb 38400";
 char *vtiden = "\033[?6c";
 
 /* Kerning / character bounding-box multipliers */
-static float cwscale = 0.8;
+static float cwscale = 0.9;
 static float chscale = 1.0;
 
 /*
@@ -68,7 +68,7 @@ const int boxdraw = 1;
 const int boxdraw_bold = 0;
 
 /* braille (U28XX):  1: render as adjacent "pixels",  0: use font */
-const int boxdraw_braille = 0;
+const int boxdraw_braille = 1;
 
 /*
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
